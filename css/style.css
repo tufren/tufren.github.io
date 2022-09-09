@@ -1,7 +1,7 @@
 @import 'variation/reset.css';
+@import 'variation/whileLoad.css';
 
 /*Respon*/
-@media (min-width: 320px) {}
 @media (min-width: 375px) {}
 @media (min-width: 425px) {}
 

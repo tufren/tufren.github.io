@@ -27,7 +27,7 @@
 
 						<!-- <input type="text" name="Nama" id="name" placeholder="Nama Toko" required> -->
 
-						<select name="Nama" id="name">
+						<select name="Nama" id="name" required>
 							
 							<option value="">Pilih</option>
 
@@ -49,7 +49,7 @@
 
 						<!-- <input type="text" name="Produk" id="items" placeholder="Nama Produk" required> -->
 
-						<select name="Produk" id="items">
+						<select name="Produk" id="items" required>
 							
 							<option value="">Pilih</option>
 							
@@ -85,7 +85,7 @@
 
 						<!-- <input type="text" name="Jenis" id="sort" placeholder="Spesifikasi Produk" required> -->
 
-						<select name="Jenis" id="sort">
+						<select name="Jenis" id="sort" required>
 							
 							<option value="">Pilih</option>
 							
@@ -131,7 +131,9 @@
 
 			<br>
 
-			<button type="submit">Kirim</button>
+			<button type="submit" class="kirim">Kirim</button>
+
+			<span class="load hidden">Tunggu..</span>
 			
 		</form>
 
